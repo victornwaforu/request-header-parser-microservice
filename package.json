@@ -1,28 +1,33 @@
 {
-  "name": "request-header-parser-microservice",
+  "name": "victor-nwafor-request-header-parser-microservice",
   "version": "0.0.2",
-  "description": "API project for freeCodeCamp",
+  "description": "API project for FCC",
+  "engines": {
+    "node": "18.x || 16.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
     "cors": "^2.8.1",
     "dotenv": "^8.2.0",
     "express": "^4.18.1"
   },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-headerparser.git"
+    "url": "https://github.com/victornwaforu/request-header-parser-microservice"
   },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
   "keywords": [
     "freeCodeCamp",
     "node",
+    "heroku",
+    "hyperdev",
     "express"
   ],
   "license": "MIT"
